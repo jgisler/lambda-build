@@ -1,0 +1,29 @@
+{
+  "name": "lambda-build",
+  "version": "1.0.0",
+  "description": "Build SAM project",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "npm install",
+    "test": "node src/index.js command test",
+    "prune": "npm prune --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgisler/lambda-build.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "sam"
+  ],
+  "author": "James Gisler",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jgisler/lambda-build/issues"
+  },
+  "homepage": "https://github.com/jgisler/lambda-build#readme",
+  "dependencies": {
+    "commander": "^2.11.0"
+  }
+}
